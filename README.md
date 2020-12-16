@@ -8,14 +8,14 @@ now there is only one format. Feel free to contribute existing formats by using 
 <repositories>
     <repository>
         <id>Ryandw11-Repo-Snapshots</id>
-        <url>https://repo.ryandw11.com/repository/maven-snapshots/</url>
+        <url>https://repo.ryandw11.com/repository/maven-releases/</url>
     </repository>
 </repositories>
 
 <dependency>
     <groupId>me.ryandw11</groupId>
     <artifactId>ODSCompressionPlus</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
