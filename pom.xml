@@ -79,7 +79,7 @@
         <dependency>
             <groupId>me.ryandw11</groupId>
             <artifactId>ods</artifactId>
-            <version>NewLayout-SNAPSHOT</version>
+            <version>1.0.4</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
