@@ -14,12 +14,12 @@ import java.io.*;
 public class ZSTDCompression implements Compressor {
 
     @Override
-    public InputStream getInputStream(FileInputStream fileInputStream) throws IOException {
+    public InputStream getInputStream(InputStream fileInputStream) throws IOException {
         return new ZstdInputStream(fileInputStream);
     }
 
     @Override
-    public OutputStream getOutputStream(FileOutputStream fileOutputStream) throws IOException {
+    public OutputStream getOutputStream(OutputStream fileOutputStream) throws IOException {
         return new ZstdOutputStream(fileOutputStream);
     }
 }
